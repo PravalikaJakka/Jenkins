@@ -17,7 +17,7 @@ public class TestCustomerService
 	@Autowired
 	CustomerService customerService;
 	
-	/*@Test
+	@Test
 	public void testAddCustomer_Positive() throws Exception
 	{
 		Address address=new Address(1000,"22-33","Ramnagar","Hyderabad","Telangana","India");
@@ -46,7 +46,7 @@ public class TestCustomerService
 	{
 		Optional<Customer> customer = customerService.getCustomer(100003);
 	    Assertions.assertEquals(false,customer.isPresent());
-	}*/
+	}
 	
 	@Test
 	public void testDeleteCustomer_Positive() throws Exception

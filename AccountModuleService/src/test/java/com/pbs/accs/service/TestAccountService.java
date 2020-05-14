@@ -19,7 +19,7 @@ public class TestAccountService
 	@Autowired
 	AccountService accountService;
 	
-	/*@Test
+	@Test
 	public void testAddAccount_Positive() throws Exception
 	{
 		Address address=new Address(1000,"22-33","Ramnagar","Hyderabad","Telangana","India");
@@ -35,7 +35,7 @@ public class TestAccountService
 		Account account=new Account();
 		Account acc=accountService.addAccount(account);
 		Assertions.assertEquals(account,acc);
-	}*/
+	}
 	
 	@Test
 	public void testGetAccount_Positive() throws Exception
@@ -51,7 +51,7 @@ public class TestAccountService
 	    Assertions.assertEquals(false,account.isPresent());
 	}
 	
-	/*@Test
+	@Test
 	public void testDeleteAccount_Positive() throws Exception
 	{
 		accountService.deleteAccount(100000000008L);
@@ -59,7 +59,7 @@ public class TestAccountService
 	    Assertions.assertEquals(false,account.isPresent());
 	}
 	
-	@Test
+	/*@Test
 	public void testDeleteAccount_Negative() throws Exception
 	{
 		accountService.deleteAccount(100000000007L);

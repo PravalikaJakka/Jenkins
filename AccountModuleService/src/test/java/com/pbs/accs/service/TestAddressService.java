@@ -53,12 +53,12 @@ public class TestAddressService
 	    Assertions.assertEquals(false,address.isPresent());
 	}
 	
-	@Test
+	/*@Test
 	public void testDeleteAddress_Negative() throws Exception
 	{
 		addressService.deleteAddress(1000);
 	    Assertions.assertNull(addressService.getAddress(1000));
-	}
+	}*/
 	
 
 }
